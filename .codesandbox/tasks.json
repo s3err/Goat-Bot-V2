@@ -11,8 +11,7 @@
   "tasks": {
     "start": {
       "name": "start",
-      "command": "npm run start",
-      "runAtStart": false
+      "command": "npm run start"
     },
     "dev": {
       "name": "dev",
@@ -21,8 +20,12 @@
     },
     "prod": {
       "name": "prod",
-      "command": "npm run prod",
-      "runAtStart": false
+      "command": "npm run prod"
+    },
+    "npm run": {
+      "name": "npm run",
+      "command": "npm run",
+      "runAtStart": true
     }
   }
 }
